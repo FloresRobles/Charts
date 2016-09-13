@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.subspec "Realm" do |ss|
     ss.source_files  = "ChartsRealm/Classes/**/*.swift"
     ss.dependency "Charts/Core"
-    ss.dependency 'RealmSwift', git: 'https://github.com/realm/realm-cocoa.git', submodules: true
+    ss.dependency 'RealmSwift'
   end
 end
